@@ -3,7 +3,10 @@
     background-color: #a4de58;
     padding: 10px 0; /* Padding for the top and bottom of the navigation bar */
 }
-
+.image-section-about img {
+    width: 30%;
+    height: auto;
+}
 .nav-bar ul {
     list-style-type: none;
     text-align: center;
@@ -14,6 +17,10 @@
     margin: 0 20px;
 }
 
+.image-section-home img {
+    width:30%;
+    height: auto;
+}
 .footer {
     background-color: #a4de58;
     padding: 10px 0;
@@ -82,19 +89,19 @@ form label {
   
 input[type="text"], input[type="email"], input[type="password"] {  
     width: 100%;  
-    padding: 50px;  
+    padding: 10px;  
     margin-bottom: 10px;  
     box-sizing: border-box;  
 }  
   
 form input[type="submit"] {  
     width: 100%;  
-    padding: 30px;  
+    padding: 10px;  
     background-color: #d808ef;}
     /*About Us Style*/
     button {  
         width: 100%;  
-        padding: 30px;  
+        padding: 10px;  
         background-color: #007BFF;  
         color: white;  
         border: none;  
@@ -103,3 +110,29 @@ form input[type="submit"] {
       
     button:hover {  
         background-color: #0056b3;  }
+        .additional-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        
+        .additional-section img {
+            width: 300px; /* Adjust the width as needed */
+            height: auto;
+            margin-bottom: 10px;
+        }
+        
+        .additional-section p {
+            text-align: justify;
+            text-justify: inter-word;
+            max-width: 500px; /* Set a maximum width for better readability */
+        }
+        .nav-logo {
+            margin-right: auto; /* Pushes the logo to the left */
+        }
+        
+        .nav-logo img {
+            height: 60px; /* Adjust the height of the image as per your requirements */
+            width: auto;
+        }

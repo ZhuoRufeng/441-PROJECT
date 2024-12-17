@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,41 +8,55 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <script src="script.js" defer></script>
+
 <body class="change-bg">
 
-<!-- Page name -->
-<div class="page-name">
-    <h1>Login to Buy Your Courses</h1>
-</div>
-<nav class="nav-bar">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="course.html">Courseware</a></li>
-        <li><a href="enquiry.html">Register</a></li>
-        <li><a href="projects.html">Projects</a></li>
-    </ul>
-</nav>
+    <!-- Page name -->
+    <div class="page-name">
+        <h1>Login to Buy Your Courses</h1>
+    </div>
+    <nav class="nav-bar">
+        <div class="nav-logo">
+            <img src="logo.png" alt="Logo Image">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="course.html">Courseware</a></li>
+            <li><a href="enquiry.html">Register</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
 
-<!-- Login Form -->
-<section class="login-form">
-    <form id="loginForm">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+    <!-- Login Form -->
+    <section class="login-form">
+        <form id="loginForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
 
-        <input type="submit" value="Login">
-    </form>
-    <button onclick="window.location.href='register.html'">Register</button>
-    <button onclick="window.location.href='index.html'">Back to Homepage</button>
-</section>
+            <input type="submit" value="Login">
+        </form>
+        <button onclick="window.location.href='register.html'">Register</button>
+        <button onclick="window.location.href='index.html'">Back to Homepage</button>
+    </section>
 
-<!-- Footer -->
-<footer class="footer">
-    <p>&copy;  Peter</p>
-</footer>
+    <!-- Added Image and Text -->
+    <section class="additional-section">
+        <img src="additional_image.jpg" alt="Additional Image">
+        <p>NQ Works: Your Gateway to IT Excellence
+            In the ever-evolving world of technology, NQ Works stands as a beacon of quality IT education. With over a decade of experience, we have been the driving force behind the success of thousands of students in Australia.
+            Our team of elite instructors, who are masters in their fields, ensure that our courses are not only comprehensive but also at the cutting edge of the IT industry. From the fundamentals of programming to the intricacies of cybersecurity and the latest trends in web development and network administration, we offer a curriculum that caters to all levels of expertise.
+            Whether you're a novice eager to embark on an exciting IT career journey or a seasoned professional aiming to upskill and stay ahead in the game, NQ Works is your ultimate destination. Join us today and unlock the doors to a world of limitless possibilities in the IT realm. Let NQ Works be your partner in achieving your professional aspirations and conquering the digital frontier.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy;  Peter</p>
+    </footer>
 
 </body>
+
 </html>
