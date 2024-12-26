@@ -435,3 +435,12 @@ body {
     bottom: 0;
     width: 100%;
   }
+  @media screen and (max-width: 768px) {
+    .nav-bar ul li {
+       display: block;
+       margin: 5px 0;
+     }
+    .course {
+       width: 40vw;
+     }
+   }
